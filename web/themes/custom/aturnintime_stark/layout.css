@@ -1,0 +1,164 @@
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Backdrop or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to display the page
+ * in a readable manner.
+ */
+/*body {
+  margin: 0 10px;
+}
+body > .layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}*/
+
+table {
+  width: 100%;
+}
+
+/**
+ * Responsive tables.
+ */
+@media screen and (max-width:450px) {
+  th.priority-low,
+  td.priority-low,
+  th.priority-medium,
+  td.priority-medium {
+    display: none;
+  }
+}
+@media screen and (max-width:720px) {
+  th.priority-low,
+  td.priority-low {
+    display: none;
+  }
+}
+/** header things **/
+.header-identity-wrapper {
+}
+.header-site-name-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-site-name-wrapper :first-child,
+.header-site-name-wrapper :2nd-child {
+  width: 162px;
+}
+.hsnw-flex-child {
+  margin: 12px;
+}
+.header-site-name-link {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 566;
+  font-size: 2.4rem;
+}
+.header-site-name-link:hover {
+  text-decoration: underline;
+  font-weight: 622;
+}
+.header-site-slogan {
+  padding-top: 0.7rem;
+  font-weight: 504;
+  font-size: 1.8rem;
+}
+ul.menu,
+ul.menu-toggle-state:not(:checked) ~ .menu {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+ul.menu li {
+  margin: 0 1rem 0.4rem 1rem !important;
+}
+.menu li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+ul.menu li a {
+  color: #eee;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+ul.menu li a.active {
+  background: #eee;
+  padding: 6px 6px 23px 6px;
+}
+ul.menu li a:hover {
+  text-decoration: underline;
+}
+.l-header {
+  color: #eee;
+  background: #474744;
+}
+.header-logo {
+  border-radius: 4px;
+  width: 133px;
+}
+/** header things end **/
+/* Homepage things */
+.write-up {
+  margin: 2rem 1rem 3rem 1rem;
+  background: #fff;
+  color: #111;
+  border-radius: 10px;
+  font-size: 1.3rem;
+
+}
+.hp-big-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hp-big-container :1st-child {
+}
+.hp-big-container :2nd-child {
+  margin: auto;
+}
+.hp-course-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hp-lil-container {
+  margin-left: 2rem;
+}
+.hp-block {
+  flex: 1 0 0;
+  margin: 0 1rem 1rem 1rem;
+  background-color: #fff;
+  color: #111;
+  border-radius: 10px;
+  border: 2px solid 111;
+  min-height: 300px;
+  max-width: 548px;
+  box-shadow: 0 5px 15px 0 #666;
+}
+.hp-block-title {
+  margin-bottom: 4px;
+  padding: 1rem;
+  font-size: 1.4em;
+  font-weight: 499;
+  background: #b7ceec; 
+  text-align: center;
+  border-bottom: 2px #000 solid;
+  border-radius: 10px;
+}
+.hp-block-content {
+  padding: 2rem;
+}
+/* Homepage things end */
+/* footer things */
+.l-footer {
+  padding: 3rem;
+  color: #eee;
+  background: #474744;
+}
+.l-footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 666;
+}
+.l-footer a:hover {
+  text-decoration: underline;
+}
+/* footer things end */

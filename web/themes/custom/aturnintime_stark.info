@@ -1,0 +1,6 @@
+name = aturnintime_stark 
+description = A Turn in Time subtheme of stark.
+version = BACKDROP_VERSION
+type = theme
+backdrop = 1.x
+stylesheets[all][] = layout.css
