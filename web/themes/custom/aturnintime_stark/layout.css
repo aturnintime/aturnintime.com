@@ -34,6 +34,7 @@ table {
 .header-site-name-wrapper {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .header-site-name-wrapper :first-child,
 .header-site-name-wrapper :2nd-child {
@@ -63,7 +64,7 @@ ul.menu-toggle-state:not(:checked) ~ .menu {
   flex-wrap: wrap;
 }
 ul.menu li {
-  margin: 0 1rem 0.4rem 1rem !important;
+  margin: 0 1rem 0rem 1rem !important;
 }
 .menu li.leaf {
   list-style-image: none;
@@ -73,13 +74,17 @@ ul.menu li a {
   color: #eee;
   font-size: 1.2rem;
   text-decoration: none;
+  padding: 6px;
 }
 ul.menu li a.active {
   background: #eee;
   color: #222;
-  padding: 6px 6px 22px 6px;
+  padding: 6px;
 }
 ul.menu li a:hover {
+  background: #ddd;
+  color: #222;
+  padding: 6px;
   text-decoration: underline;
 }
 .l-header {
