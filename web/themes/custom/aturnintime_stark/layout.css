@@ -98,54 +98,19 @@ ul.menu li a:hover {
 }
 /** header things end **/
 /* Homepage things */
-.write-up {
-  margin: 2rem 1rem 3rem 1rem;
-  background: #fff;
-  color: #111;
-  border-radius: 10px;
-  font-size: 1.3rem;
-
-}
-.hp-big-container {
+.l-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-.hp-big-container :1st-child {
-}
-.hp-big-container :2nd-child {
-  margin: auto;
-}
-.hp-course-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.hp-lil-container {
-  margin-left: 2rem;
-}
-.hp-block {
+.hp-left,
+.hp-right {
   flex: 1 0 0;
   margin: 0 1rem 1rem 1rem;
   background-color: #fff;
   color: #111;
-  border-radius: 10px;
-  border: 2px solid 111;
   min-height: 300px;
-  max-width: 548px;
-  box-shadow: 0 5px 15px 0 #666;
 }
-.hp-block-title {
-  margin-bottom: 4px;
-  padding: 1rem;
-  font-size: 1.4em;
-  font-weight: 499;
-  background: #b7ceec; 
-  text-align: center;
-  border-bottom: 2px #000 solid;
-  border-radius: 10px;
-}
-.hp-block-content {
-  padding: 2rem;
-}
+
 /* Homepage things end */
 /* footer things */
 .l-footer {

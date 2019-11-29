@@ -36,64 +36,11 @@
   <?php endif; ?>
 
   <div class="l-wrapper">
-    <div class="hp-content">
-      <div class="hp-big-container">
-        <div class="hp-all-the-things">
-          <div class="hp-lil-container">
-            <div class="write-up">
-              🚀 Jumpstart your Backdrop site builder and/or dev skills with easy to follow videos, courses, and trainings.🚀
-            </div>
-            <div class="hp-course-row">
-              <div
-                class="hp-course hp-block hp-sb-gs">
-                <div class="hp-block-title">
-                  Site Builder Getting Started
-                </div>
-                <div class="hp-block-content">
-                  Jumpstart or update your site building skillset!
-                </div>
-              </div>
-              <div
-                class="hp-course hp-block hp-dev-gs">
-                <div class="hp-block-title">
-                  Developer Getting Started
-                </div>
-                <pre>
-                  <code class="php hljs">
-                    foreach ($fields as $field) {
-                      print $field->name;
-                    }
-                  </code>
-                </pre>
-                <div class="hp-block-content">
-                  Get up to speed on development tools, techniques, and jumpstart your dev skills!
-                </div>
-              </div>
-            </div>
-            <div class="hp-course-row">
-              <div class="hp-course hp-block hp-sb-adv">
-                <div class="hp-block-title">
-                  Site Builder Advanced
-                </div>
-                <div class="hp-block-content">
-
-                </div>
-              </div>
-              <div class="hp-course hp-block hp-dev-adv">
-                <div class="hp-block-title">
-                  Developer Advanced
-                </div>
-                <div class="hp-block-content">
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          ads.
-        </div>
-      </div>
+    <div class="hp-left">
+      At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
+    </div>
+    <div class="hp-right">
+      --- contact form ---
     </div>
   </div><!-- /.l-wrapper -->
 
