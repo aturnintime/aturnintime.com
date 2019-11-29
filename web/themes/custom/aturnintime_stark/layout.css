@@ -6,13 +6,6 @@
  * Stark theme itself has no styling, except just enough CSS to display the page
  * in a readable manner.
  */
-/*body {
-  margin: 0 10px;
-}
-body > .layout {
-  max-width: 1200px;
-  margin: 0 auto;
-}*/
 
 table {
   width: 100%;
