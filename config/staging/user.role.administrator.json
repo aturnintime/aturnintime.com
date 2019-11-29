@@ -108,6 +108,11 @@
         "access all views",
         "access contextual links",
         "administer layouts",
-        "access administration bar"
+        "access administration bar",
+        "create contacts content",
+        "edit own contacts content",
+        "edit any contacts content",
+        "delete own contacts content",
+        "delete any contacts content"
     ]
 }
