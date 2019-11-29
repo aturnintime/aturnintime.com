@@ -1,0 +1,58 @@
+<?php
+/**
+ * @file
+ * Add CTA forms and data processing to aturnintime.com
+ */
+
+/**
+ * Hompage CTA form.
+ */
+function aturnintime_cta_form($form, $form_state) {
+  $form = array();
+  $form['email'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Email',
+    '#default_value' => 'you@example.com',
+    '#size' => 24,
+  );
+  $form['budget'] = array(
+    '#type' => 'select',
+    '#title' => 'Budget',
+    '#options' => array(
+      '1k' => '$1k to $5k',
+      '5k+' => '$5k to $10k',
+      '10k+' => '$10k+',
+    ), 
+  );
+  $form['about'] = array(
+    '#type' => 'textarea',
+    '#title' => 'About',
+    '#default_value' => 'Tell us about your project.', 
+  );
+  $form['timeline'] = array(
+    '#type' => 'hidden',
+    '#value' => 'geoff is the best.',
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  );
+  return $form;
+}
+
+/**
+ * CTA form validation.
+ */
+function aturnintime_cta_form_validate($form, &$form_state) {
+  $geoff = $form_state['values']['timeline'];
+  if ($geoff !== 'geoff is the best.') {
+    form_set_error('nope', 'No thank you.');
+  }
+}
+
+/**
+ * CTA form submit.
+ */
+function aturnintime_cta_form_submit($form, &$form_state) {
+
+}

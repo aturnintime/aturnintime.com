@@ -40,7 +40,15 @@
       At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
     </div>
     <div class="hp-right">
-      --- contact form ---
+      <div class="hp-cta-title">
+        How can we help you?
+      </div>
+      <div class="hp-cta-form">
+        <?php
+          $cta = backdrop_get_form('aturnintime_cta_form');
+          print render($cta);
+        ?>
+      </div>
     </div>
   </div><!-- /.l-wrapper -->
 
