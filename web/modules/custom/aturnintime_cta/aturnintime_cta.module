@@ -19,10 +19,11 @@ function aturnintime_cta_form($form, $form_state) {
     '#type' => 'select',
     '#title' => 'Budget',
     '#options' => array(
-      '1k' => '$1k to $5k',
+      '1k+' => '$1k to $5k',
       '5k+' => '$5k to $10k',
       '10k+' => '$10k+',
-    ), 
+    ),
+    '#default_value' => '1k+',
   );
   $form['about'] = array(
     '#type' => 'textarea',
