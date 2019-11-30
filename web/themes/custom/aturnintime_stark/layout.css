@@ -104,17 +104,42 @@ ul.menu li a:hover {
 }
 .hp-left,
 .hp-right {
-  flex: 1 0 0;
+  width: 60%; 
   margin: 1rem 2rem 1rem 2rem;
   background-color: #fff;
   color: #111;
   min-height: 300px;
 }
-.hp-left {
+.write-up {
+  margin-bottom: 1rem;
   font-size: 1.4rem;
   line-height: 1.6;
 }
 .hp-right {
+  width: 30%;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-wp,
+.service-drupal,
+.service-backdrop {
+  flex: 1 0 0;
+  margin: 0.6rem;
+  min-height: 320px;
+  box-shadow: 10px 5px 5px #ccc;
+}
+.service-top {
+  padding: 1rem;
+  background: #444;
+  color: #eee;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.service-bottom {
+  padding: 0.6rem;
 }
 label {
   margin-bottom: 0.4rem;

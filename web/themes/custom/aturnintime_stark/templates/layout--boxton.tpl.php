@@ -37,7 +37,49 @@
 
   <div class="l-wrapper">
     <div class="hp-left">
-      At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
+      <div class="write-up">
+        At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
+      </div>
+      <div class="services-container">
+        <div class="service-wp">
+          <div class="service-top">
+            Upgrade from WordPress
+          </div>
+          <div class="service-bottom">
+            Hit the wall with WordPress? 
+            <br/>
+            <br/>
+            Need more complex relationships and content views?
+            <br/>
+            <br/>
+            <strong>A Turn in Time</strong> can migrate your data from WordPress and get you the web presence you need.
+          </div>
+        </div>
+        <div class="service-drupal">
+          <div class="service-top">
+            Upgrade from Drupal
+          </div>
+          <div class="service-bottom">
+            Need to get off of Drupal 6 or 7 to a supported platform?
+            <br/>
+            <br/>
+            Drupal 7 End of Life have you in a pinch?
+            <br/>
+            <br/>
+            <strong>A Turn in Time</strong> can get your data and site into Backdrop CMS for continued growth and support.  
+          </div>
+        </div>
+        <div class="service-backdrop">
+          <div class="service-top">
+            Build it with Backdrop
+          </div>
+          <div class="service-bottom">
+            Got your next idea planned and ready?
+            <br/><br/>
+            We can help you bring the content you need to your audience with a brand new Backdrop CMS website!
+          </div>
+        </div>
+      </div>
     </div>
     <div class="hp-right">
       <div class="hp-cta-title">
