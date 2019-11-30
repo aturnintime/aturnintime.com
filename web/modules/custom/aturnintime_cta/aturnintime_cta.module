@@ -72,5 +72,5 @@ function aturnintime_cta_form_submit($form, &$form_state) {
   $node->body[LANGUAGE_NONE][0]['value'] = check_plain($values['about']);
   $node->save();
 
-  $form_state['redirect'] = 'about';
+  $form_state['redirect'] = 'thanks';
 }
