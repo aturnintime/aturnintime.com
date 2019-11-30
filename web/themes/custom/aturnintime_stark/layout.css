@@ -100,6 +100,7 @@ ul.menu li a:hover {
 .l-wrapper {
   display: flex;
   flex-wrap: wrap;
+  min-height: 688px;
 }
 .hp-left,
 .hp-right {
@@ -112,6 +113,8 @@ ul.menu li a:hover {
 .hp-left {
   font-size: 1.4rem;
   line-height: 1.6;
+}
+.hp-right {
 }
 label {
   margin-bottom: 0.4rem;

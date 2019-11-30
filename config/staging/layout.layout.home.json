@@ -23,9 +23,7 @@
         "top": [
             "094cbc03-d088-4b3c-8361-977733540ae8"
         ],
-        "content": [
-            "578243cf-a4c8-46ad-9504-04aaf4ec9ccc"
-        ],
+        "content": [],
         "bottom": [],
         "footer": [
             "d6903155-4ad7-46d3-9300-e628fd337f06"
@@ -105,39 +103,6 @@
                     "image_path": null
                 },
                 "uuid": "094cbc03-d088-4b3c-8361-977733540ae8",
-                "style": {
-                    "plugin": "default",
-                    "data": {
-                        "settings": {
-                            "classes": ""
-                        }
-                    }
-                }
-            }
-        },
-        "578243cf-a4c8-46ad-9504-04aaf4ec9ccc": {
-            "plugin": "views:promoted-block",
-            "data": {
-                "module": "views",
-                "delta": "promoted-block",
-                "settings": {
-                    "link_to_view": null,
-                    "more_link": false,
-                    "use_pager": true,
-                    "pager_id": 0,
-                    "items_per_page": 10,
-                    "offset": 0,
-                    "path": "rss.xml",
-                    "fields_override": null,
-                    "title_display": "default",
-                    "title": "",
-                    "style": "default",
-                    "block_settings": [],
-                    "contexts": [],
-                    "allowed": [],
-                    "path_override": false
-                },
-                "uuid": "578243cf-a4c8-46ad-9504-04aaf4ec9ccc",
                 "style": {
                     "plugin": "default",
                     "data": {
