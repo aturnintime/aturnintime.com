@@ -27,7 +27,7 @@
         "sidebar": [],
         "bottom": [],
         "footer": [
-            "cd4d033d-3f67-4191-8655-85ee758877c0"
+            "03f9fc79-0a3a-4149-8756-8637a2c8f8ac"
         ],
         "title": []
     },
@@ -110,19 +110,19 @@
                 }
             }
         },
-        "cd4d033d-3f67-4191-8655-85ee758877c0": {
-            "plugin": "system:powered-by",
+        "03f9fc79-0a3a-4149-8756-8637a2c8f8ac": {
+            "plugin": "block:a_turn_in_time_footer",
             "data": {
-                "module": "system",
-                "delta": "powered-by",
+                "module": "block",
+                "delta": "a_turn_in_time_footer",
                 "settings": {
                     "title_display": "default",
-                    "title": "",
                     "style": "default",
                     "block_settings": [],
-                    "contexts": []
+                    "contexts": [],
+                    "title": ""
                 },
-                "uuid": "cd4d033d-3f67-4191-8655-85ee758877c0",
+                "uuid": "03f9fc79-0a3a-4149-8756-8637a2c8f8ac",
                 "style": {
                     "plugin": "default",
                     "data": {

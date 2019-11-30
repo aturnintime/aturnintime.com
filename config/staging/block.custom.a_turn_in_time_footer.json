@@ -1,0 +1,12 @@
+{
+    "_config_name": "block.custom.a_turn_in_time_footer",
+    "delta": "a_turn_in_time_footer",
+    "info": "A Turn in Time Footer",
+    "title": "",
+    "description": "",
+    "body": {
+        "value": "<div class=\"footer-container\">\r\n  <div class=\"footer-powered-by\">\r\n    Powered by: <a href=\"https://backdropcms.org\">Backdrop CMS</a>\r\n  </div>\r\n  <div class=\"footer-twiter\">\r\n    Follow us: <a href=\"https://twitter.com/aturnintime\">@aturnintime</a>\r\n  </div>\r\n</div>\r\n\r\n<style>\r\n.footer-container {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n}\r\n.footer-powered-by {\r\n  width: 50%;\r\n}\r\n.footer-twitter {\r\n  width: 50%;\r\n}\r\n</style>",
+        "format": "full_html"
+    },
+    "default_langcode": "und"
+}

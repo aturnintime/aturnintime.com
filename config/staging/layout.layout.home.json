@@ -26,7 +26,7 @@
         "content": [],
         "bottom": [],
         "footer": [
-            "d6903155-4ad7-46d3-9300-e628fd337f06"
+            "6b1d6816-1077-4fd9-aa2c-44d38f608285"
         ],
         "title": []
     },
@@ -113,19 +113,23 @@
                 }
             }
         },
-        "d6903155-4ad7-46d3-9300-e628fd337f06": {
-            "plugin": "system:powered-by",
+        "6b1d6816-1077-4fd9-aa2c-44d38f608285": {
+            "plugin": "block:a_turn_in_time_footer",
             "data": {
-                "module": "system",
-                "delta": "powered-by",
+                "module": "block",
+                "delta": "a_turn_in_time_footer",
                 "settings": {
                     "title_display": "default",
                     "title": "",
                     "style": "default",
-                    "block_settings": [],
+                    "block_settings": {
+                        "delta": "a_turn_in_time_footer",
+                        "description": "",
+                        "reusable": true
+                    },
                     "contexts": []
                 },
-                "uuid": "d6903155-4ad7-46d3-9300-e628fd337f06",
+                "uuid": "6b1d6816-1077-4fd9-aa2c-44d38f608285",
                 "style": {
                     "plugin": "default",
                     "data": {
