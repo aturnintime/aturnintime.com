@@ -1,0 +1,24 @@
+{
+    "_config_name": "metatag.instance.global.frontpage",
+    "module": "metatag",
+    "storage": "overridden",
+    "name": "global.frontpage",
+    "instance": "global:frontpage",
+    "label": "Global: Home page",
+    "disabled": false,
+    "api_version": 1,
+    "config": {
+        "title": {
+            "value": "[site:name] | [current-page:pager]"
+        },
+        "description": {
+            "value": "A Turn in Time Web solutions provides Backdrop CMS site development, content migration, and page speed and SEO optimization."
+        },
+        "canonical": {
+            "value": "[site:url]"
+        },
+        "shortlink": {
+            "value": "[site:url]"
+        }
+    }
+}

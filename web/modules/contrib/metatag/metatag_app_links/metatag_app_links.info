@@ -1,0 +1,18 @@
+;marking as hidden until ported.
+hidden = true
+
+type = module
+name = Metatag: App Links
+description = "Provides support for applinks.org meta tags."
+package = SEO
+core = 7.x
+dependencies[] = metatag
+
+; Tests.
+files[] = tests/metatag_app_links.test
+files[] = tests/metatag_app_links.tags.test
+
+; Added by Backdrop CMS packaging script on 2019-08-14
+project = metatag
+version = 1.x-1.21.6
+timestamp = 1565847462
