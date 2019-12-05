@@ -1,0 +1,14 @@
+type = module
+name = XML sitemap engines
+description = Submit the sitemap to search engines.
+package = XML sitemap
+backdrop = 1.x
+
+dependencies[] = xmlsitemap
+
+configure = admin/config/search/xmlsitemap/engines
+
+; Added by Backdrop CMS packaging script on 2019-06-17
+project = xmlsitemap
+version = 1.x-1.0.5
+timestamp = 1560791831
