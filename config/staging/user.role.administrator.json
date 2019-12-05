@@ -123,6 +123,7 @@
         "administer honeypot",
         "bypass honeypot protection",
         "administer meta tags",
-        "edit meta tags"
+        "edit meta tags",
+        "administer xmlsitemap"
     ]
 }
