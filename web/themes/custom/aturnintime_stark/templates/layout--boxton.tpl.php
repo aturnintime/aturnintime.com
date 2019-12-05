@@ -37,14 +37,15 @@
 
   <div class="l-wrapper">
     <div class="hp-left">
+      <h1>A Turn in Time web development solutions</h1>
       <div class="write-up">
         At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
       </div>
       <div class="services-container">
         <div class="service-wp">
-          <div class="service-top">
+          <h2 class="service-top">
             Upgrade from WordPress
-          </div>
+          </h2>
           <div class="service-bottom">
             Hit the wall with WordPress? 
             <br/>
@@ -56,9 +57,9 @@
           </div>
         </div>
         <div class="service-drupal">
-          <div class="service-top">
+          <h2 class="service-top">
             Upgrade from Drupal
-          </div>
+          </h2>
           <div class="service-bottom">
             Need to get off of Drupal 6 or 7 to a supported platform?
             <br/>
@@ -70,9 +71,9 @@
           </div>
         </div>
         <div class="service-backdrop">
-          <div class="service-top">
+          <h2 class="service-top">
             Build it with Backdrop
-          </div>
+          </h2>
           <div class="service-bottom">
             Got your next idea planned and ready?
             <br/><br/>
@@ -82,9 +83,9 @@
       </div>
     </div>
     <div class="hp-right">
-      <div class="hp-cta-title">
+      <h2 class="hp-cta-title">
         How can we help you?
-      </div>
+      </h2>
       <div class="hp-cta-form">
         <?php
           $cta = backdrop_get_form('aturnintime_cta_form');
