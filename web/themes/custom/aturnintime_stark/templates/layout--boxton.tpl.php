@@ -37,7 +37,6 @@
 
   <div class="l-wrapper">
     <div class="hp-left">
-      <h1>A Turn in Time web development solutions</h1>
       <div class="write-up">
         At <strong>A Turn in Time</strong> we specialize in delivering value to your web presence with expert development in Backdrop CMS and Javascript.
       </div>
