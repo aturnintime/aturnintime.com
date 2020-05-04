@@ -1,8 +1,11 @@
 name: aturnintime
 recipe: backdrop
+env_file:
+  - pull.env
 config:
   webroot: web
-  backdrush: 1.1.0
+  via: nginx
+  backdrush: 1.x-1.x
 
 services:
   database:

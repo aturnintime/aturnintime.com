@@ -1,6 +1,14 @@
 vendor
 node_modules
+
 *.sql
 *.sql.tgz
 *.tgz
+
 config/active
+
+pull-config.json
+pull.env
+.env
+
+web/modules/contrib/devel
