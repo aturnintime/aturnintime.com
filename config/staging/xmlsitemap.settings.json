@@ -2,7 +2,7 @@
     "_config_name": "xmlsitemap.settings",
     "_config_static": true,
     "rebuild_needed": false,
-    "regenerate_needed": true,
+    "regenerate_needed": false,
     "minimum_lifetime": "0",
     "generated_last": 0,
     "xsl": 1,
