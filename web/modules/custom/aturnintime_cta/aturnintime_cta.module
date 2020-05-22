@@ -70,6 +70,7 @@ function aturnintime_cta_form_submit($form, &$form_state) {
   $node->title = check_plain($values['email']);
   $node->field_budget[LANGUAGE_NONE][0]['value'] = check_plain($values['budget']);
   $node->body[LANGUAGE_NONE][0]['value'] = check_plain($values['about']);
+  $node->field_contact_status[LANGUAGE_NONE][0]['value'] = 'unread';
   $node->save();
 
   $form_state['redirect'] = 'thanks';

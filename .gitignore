@@ -12,3 +12,4 @@ pull.env
 .env
 
 web/modules/contrib/devel
+tst.php
