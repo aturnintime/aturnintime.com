@@ -1,0 +1,29 @@
+{
+    "_config_name": "field.field.field_contact_status",
+    "field_name": "field_contact_status",
+    "type": "list_text",
+    "translatable": false,
+    "module": "list",
+    "active": 1,
+    "locked": 0,
+    "cardinality": "1",
+    "deleted": 0,
+    "entity_types": [],
+    "settings": {
+        "allowed_values": {
+            "unread": "Unread",
+            "spam": "Spam",
+            "needs_attn": "Needs Attention",
+            "reached_out": "Reached Out",
+            "dormant": "Dormant",
+            "project_in_action": "Project in Action"
+        },
+        "allowed_values_function": ""
+    },
+    "storage": {
+        "type": "field_sql_storage",
+        "settings": [],
+        "module": "field_sql_storage",
+        "active": 1
+    }
+}
