@@ -1,7 +1,7 @@
 name: aturnintime
 recipe: backdrop
 env_file:
-  - pull.env
+  - .env
 config:
   webroot: web
   via: nginx
@@ -14,3 +14,14 @@ services:
 tooling:
   drush:
     cmd: drush --root=/app/web --uri=https://aturnintime.lndo.site
+  pull:
+    service: appserver
+    description: Pull and import the database from production.
+    cmd:
+      - appserver: envoy run pull
+      - database: /helpers/sql-import.sh db.sql
+      - appserver: rm db.sql
+      - appserver: rm -rf /app/web/files
+      - appserver: tar xvzf f.tgz -C /app/web
+      - appserver: rm f.tgz
+
