@@ -166,3 +166,12 @@ label {
   text-decoration: underline;
 }
 /* footer things end */
+
+/* /about page. */
+.about {
+  line-height: 1.4rem;
+}
+.staff div {
+  line-height: 1.6rem;
+}
+/* end /about page. */
