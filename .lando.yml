@@ -24,4 +24,9 @@ tooling:
       - appserver: rm -rf /app/web/files
       - appserver: tar xvzf f.tgz -C /app/web
       - appserver: rm f.tgz
+  deploy:
+    service: appserver
+    description: Deploy to aturnintime.com production
+    cmd:
+      - appserver: envoy run deploy --branch=master
 
