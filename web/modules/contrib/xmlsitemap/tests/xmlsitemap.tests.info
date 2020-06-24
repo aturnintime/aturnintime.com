@@ -17,7 +17,7 @@ file = xmlsitemap.test
 ;file = xmlsitemap.test
 ;dependancies[] = robotstxt @todo
 
-; Added by Backdrop CMS packaging script on 2019-06-17
+; Added by Backdrop CMS packaging script on 2020-05-25
 project = xmlsitemap
-version = 1.x-1.0.5
-timestamp = 1560791831
+version = 1.x-1.0.6
+timestamp = 1590459600
